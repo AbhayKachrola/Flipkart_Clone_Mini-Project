@@ -10,9 +10,6 @@ import TotalView from './TotalView';
 import EmptyCart from './EmptyCart';
 import CartItem from './CartItem';
 
-// import { post } from '../../utils/paytm';
-// import { payUsingPaytm } from '../../service/api';
-
 import {loadStripe} from '@stripe/stripe-js';
 
 const Component = styled(Grid)(({ theme }) => ({
